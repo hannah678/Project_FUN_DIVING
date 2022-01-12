@@ -7,7 +7,12 @@ public class BOJ_17496 {
 		int T = scanner.nextInt();
 		int C = scanner.nextInt();
 		int P = scanner.nextInt();
-		System.out.println((N-1) / T * C * P);
+		
+		if((2<=N&&N<=90)&&(1<=T&&T<=N-1)&&(1<=C&&C<=300)&&(1<=P&&P<=1000)) {
+			System.out.println((N-1) / T * C * P);
+		} else {
+			System.out.println("Input error");
+		}
 	}
 }
 
