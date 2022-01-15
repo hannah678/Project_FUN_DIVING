@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/1271
+#### 🔗 [문제 풀러 가기](https://www.acmicpc.net/problem/1271)
 
 import java.math.BigInteger;
 import java.util.Scanner;
