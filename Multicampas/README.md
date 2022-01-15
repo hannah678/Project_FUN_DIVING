@@ -1,4 +1,4 @@
-### Samsung MultiCampus Java Project 🌱
+### 🌱 Samsung MultiCampus Java Project
 
 <!--
 **hyeyoung-dev/hyeyoung-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
