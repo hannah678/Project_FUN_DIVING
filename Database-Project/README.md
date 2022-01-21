@@ -1,5 +1,5 @@
-### Samsung MultiCampus Java Project 🌱
-
+### Samsung MultiCampus Database Project 🌱
+##(based on MYSQL)
 <!--
 **hyeyoung-dev/hyeyoung-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,4 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[javaProject.pdf](https://github.com/hyeyoung-dev/Study-Java/files/7861425/javaProject.pdf)
+[MySQL source file](https://github.com/hyeyoung-dev/MultiCampus-JavaProject/blob/main/Database-Project/db_%EA%B3%BC%EC%A0%9C1_%EA%B9%80%ED%98%9C%EC%98%81.sql)
+[DatabaseProject.pdf](https://github.com/hyeyoung-dev/MultiCampus-JavaProject/blob/main/Database-Project/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EC%8B%A4%EC%8A%B5.pdf)
