@@ -13,23 +13,21 @@ public class algorithm_Project1 {
 		
 		//내림차순 퀵정렬(QuickSort)
 		public static void myQuick(int a[], int left, int right) {
-			int pl = left;  
-			int pr = right; 
 			int pivot = a[(left+right)/2];
 			
 			do {
-				while(a[pl]>pivot) pl++; 
-				while(a[pr]<pivot) pr--;
+				while(a[left]>pivot) left++; 
+				while(a[right]<pivot) right--;
 				
-				if(pl<=pr) { 
-					swap(a,pl++,pr--);
+				if(left<=right) { 
+					swap(a,left++,right--);
 				}
-			}while(pl <= pr);
-			if(left < pr) {
-				myQuick(a, left, pr);
+			}while(left <= right);
+			if(left < right) {
+				myQuick(a, left, right);
 			}
-			if(pl < right) {
-				myQuick(a, pl, right);
+			if(left < right) {
+				myQuick(a, left, right);
 			}
 		}
 	 
