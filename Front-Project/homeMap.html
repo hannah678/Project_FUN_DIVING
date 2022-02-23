@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fun Diving Korea</title>
+<meta name="viewport" content="width=device-width, initial-sale=1"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBnrzXBSlnIINDm4WEt1HS8UeWWzJ-Tzpk&callback=initMap"></script>
+
+<style>
+	#back{width:100%; height:100%; z-index:1;  margin:0 auto;}
+	#back>ul>li {position:absolute; right:5px; z-index:2;}
+	#back>ul,li{float:left;}
+	.modal-body{margin:0 auto;} 
+	.modal{top:300px;position:absolute;z-index:5;}
+	
+	#carousel{overflow: hidden; width:100%; height:250px; top:0; position:absolute; z-index:1;}
+
+	#homeimg>img{width:100%; height:900px; top:250px; position:absolute; z-index:1;}
+	
+	#gmap{position:absolute; width:800px; height:800px; top:130px; border-radius:50%; left:27%; z-index:2;}
+	
+	#logo{position:absolute; width:150px; left:20px; top:20px; z-index:2;}
+</style>
+<!-- 
+	1. 
+	2. mapReset의 위도경도가 안됨.(새로고침시에 지정된 장소로 랜덤이동)
+	3. 동그라미 영역 안뜸
+ -->
+</head>
+<body>
+<div id="back">
+	<ul>
+		<li>
+			<input type="button" id="login"value="로그인" data-target="#m" data-toggle="modal"/>
+			<input type="button" id="signup" value="회원가입"/>
+		</li>
+	</ul>
+	<div id="m" class="modal"><!-- modal -->
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body"></div>
+				<!-- Footer -->
+				<div class="modal-footer">
+					<button data-dismiss="modal" class="btn btn-success">닫기</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="homeMap.html"><img src="../frontMiniProject/img/logo.png"id="logo"/></a> 
+	<div id="carousel"></div>
+	<div id="homeimg" class="img-wrapper">
+		<img src="../frontMiniProject/img/main2.jpg"/>
+	</div>
+	<div id="gmap"></div>
+</div>
+<script> 
+    $(function(){
+      $(".modal-body").load("login.html"); 
+      $("#carousel").load("carousel.html"); 
+      $("#gmap").load("googleMapGeocoder.html"); 
+    });
+    
+   
+    
+    $(document).ready(function(){
+    	$("#signup").click(function(){ 
+    		$(location).attr("href", "signUp.html");
+    	});
+    	$("#gmap").click(function(){ 
+    		$(location).attr("href", "bulletin1.html");
+    	});
+    });
+
+    
+</script> 
+
+</body>
+</html>
