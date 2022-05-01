@@ -4,7 +4,10 @@
 - 삼성 멀티캠퍼스 지능형 웹서비스 풀스택 개발
 - 2022.03.22 ~2022.03.23(2일)
 
+----
+
 - googleMap api
+- MySQL
 - Spring MVC
 - Tomcat
 
