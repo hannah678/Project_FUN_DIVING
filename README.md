@@ -1,5 +1,6 @@
 # FUN DIVING - miniproject
 
+- [프로젝트 폴더](https://github.com/hyeyoung-dev/Project_FUN_DIVING/tree/main/Spring-Project/Project02_Web)
 - 1인 개발
 - 삼성 멀티캠퍼스 지능형 웹서비스 풀스택 개발
 - 2022.03.22 ~2022.03.23(2일)
