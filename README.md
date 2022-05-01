@@ -1,9 +1,12 @@
-# FUN DIVING -MiniProject
+# FUN DIVING - miniproject
+
+- 1인 개발
+- 삼성 멀티캠퍼스 지능형 웹서비스 풀스택 개발
+- 2022.03.22 ~2022.03.23(2일)
 
 - googleMap api
 - Spring MVC
 - Tomcat
-- 1인 개발
 
 <h3>실행화면</h3>
 
