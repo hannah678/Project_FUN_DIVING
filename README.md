@@ -11,6 +11,8 @@
 - Spring MVC
 - Tomcat
 
+------
+
 <h3>실행화면</h3>
 
 ![화면캡쳐](https://github.com/hyeyoung-dev/MultiCampus-Project/blob/main/Spring-Project/Project02_Web/%ED%99%94%EB%A9%B4%EC%BA%A1%EC%B2%98/1.png)
